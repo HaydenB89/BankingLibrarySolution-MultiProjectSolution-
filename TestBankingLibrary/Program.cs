@@ -1,9 +1,10 @@
-﻿using System;
+﻿using BankingLibraryPorject;
+using System;
 
 namespace TestBankingLibrary {
     class Program {
         static void Main(string[] args) {
-            Console.WriteLine("Hello World!");
+            Account account = new Account();
         }
     }
 }
